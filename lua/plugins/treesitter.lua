@@ -4,7 +4,7 @@ return {
   build = ':TSUpdate',
   branch = 'main',
   config = function()
-    local parsers = { 'bash', 'c', 'diff', 'html', 'lua', 'luadoc', 'markdown', 'markdown_inline', 'query', 'vim', 'vimdoc' }
+    local parsers = { 'bash', 'c', 'css', 'diff', 'html', 'javascript', 'jsdoc', 'json', 'lua', 'luadoc', 'markdown', 'markdown_inline', 'query', 'tsx', 'typescript', 'vim', 'vimdoc' }
     require('nvim-treesitter').setup()
 
     vim.defer_fn(function()
